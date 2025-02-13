@@ -439,7 +439,7 @@ a:hover{
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 580px) {
     .edu {
         font-size: 14px;
         padding: 6px;
@@ -447,6 +447,8 @@ a:hover{
         animation: slideLeftRight 12s linear infinite;
         width: 300%;
         margin-left: -100%;
+        overflow:hidden;
+        display: none;
     }
 }
 
@@ -513,7 +515,7 @@ body.light-mode .navbar {
     color: #007bff;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 868px) {
     .nav-container {
         flex-direction: column;
         gap: 1rem;
